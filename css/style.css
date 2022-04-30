@@ -68,7 +68,7 @@ body {
 
 .img-div{
     padding-top: 45px;
-    padding-bottom: 85px;
+    padding-bottom: 35px;
     margin: 0px;
 }
 
@@ -110,11 +110,6 @@ body {
     text-align: center;
 }
 
-.footer img{
-    max-width: 275px;
-    margin-left: 66px;
-}
-
 .form {
     margin: 0 -15px;
 	display: flex;
@@ -147,12 +142,6 @@ input {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
-}
-
-.select-input{
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid #F4F0E9;
 }
 
 .form-inputs {
