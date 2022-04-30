@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "NeueMachina";
+    src: url("/fonts/NeueMachina-Black.6dff9052.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "NeueMachinaBold";
+    src: url("/fonts/NeueMachina-Bold.6b7a17e6.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "NeueMachinaLight";
+    src: url("/fonts/NeueMachina-Light.5bcb80c9.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-align: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1 , h2 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    color: black;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(180deg, #2BF39C 0%, #FFFFFF 15%);
+    text-align: center;
+}
+
+.img-div{
+    padding-top: 45px;
+    padding-bottom: 85px;
+    margin: 0px;
+}
+
+.main {
+    flex: 1 1 auto;
+    background: linear-gradient(0deg, #2BF39C 0%, #FFFFFF 50%);
+}
+
+.main-div{
+    max-width: 297px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    padding-bottom: 31px;
+    font-family: "NeueMachina" , sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 33.33px;
+}
+
+.btn {
+    max-width: 300px;
+    width: 100%;
+    height: 43px;
+    display: block;
+    background-color: rgba(43, 243, 156, 1);
+    border-radius: 8px;
+    font-family:"NeueMachinaBold" , sans-serif;
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+
+.footer {   
+    background: linear-gradient(0deg, #2BF39C 0%, #FFFFFF 100%);
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.footer img{
+    max-width: 275px;
+    margin-left: 66px;
+}
+
+.form {
+    margin: 0 -15px;
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-form{
+    margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+.input2{
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    font-weight: 400;
+    align-items: center;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 15.05px;
+    margin-bottom: 11px;
+    color: black;
+}
+
+input {
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.select-input{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #F4F0E9;
+}
+
+.form-inputs {
+    width: calc(100% / 1 - 22px);
+}
+
+.fake-footer{
+    margin-top: 70px;
+    max-width: 272px;
+    font-size: 13px;
+    line-height: 13.98px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: "NeueMachinaLight" , sans-serif;
+
+}
